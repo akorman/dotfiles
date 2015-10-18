@@ -84,7 +84,7 @@
 [core]
 
     # Use custom `.gitignore` and `.gitattributes`
-    excludesfile = ~/.gitignore
+	excludesfile = /Users/adam/.gitignore
     attributesfile = ~/.gitattributes
 
     # Treat spaces before tabs and all kinds of trailing whitespace as an error
@@ -174,3 +174,9 @@
 [url "git://gist.github.com/"]
 
     insteadOf = "gist:"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
