@@ -1,0 +1,17 @@
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.aliases: aliases
+    ~/.bash_profile: bash_profile
+    ~/.bash_prompt: bash_prompt
+    ~/.bashrc: bashrc
+    ~/.exports: exports
+    ~/.functions: functions
+    ~/.gitconfig: gitconfig
+    ~/.gitignore: gitignore
+    ~/.gitmodules: gitmodules
+    ~/.inputrc: inputrc
+    ~/.screenrc: screenrc
+    ~/.wgetrc: wgetrc
+
