@@ -10,7 +10,11 @@ alias -- -="cd -"
 alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-#alias p="cd ~/projects"
+alias dotfiles="cd ~/Code/dotfiles/akorman/dotfiles"
+
+alias ocal="cd ~/Code/orangecal"
+alias bmp="cd ~/Code/brakeman/brakeman-pro"
+
 alias g="git"
 alias h="history"
 alias j="jobs"
