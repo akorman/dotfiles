@@ -1,7 +1,7 @@
 # @gf3’s Sexy Bash Prompt, inspired by “Extravagant Zsh Prompt”
 # Shamelessly copied from https://github.com/gf3/dotfiles
 
-default_username='akorman'
+default_username='adam'
 
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
     export TERM=gnome-256color
@@ -54,4 +54,4 @@ function usernamehost() {
     if [ $USER != $default_username ]; then echo "${MAGENTA}$USER ${WHITE}at ${ORANGE}$HOSTNAME ${WHITE}in "; fi
 }
 
-PS1="\[\e]2;$PWD\[\a\]\[\e]1;\]$(basename "$(dirname "$PWD")")/\W\[\a\]${BOLD}\$(usernamehost)\[$GREEN\]\w\$(git_info)\[$WHITE\]\n\n༼ つ ◕_◕ ༽つ⚡  \[$RESET\]"
+PS1="\[\e]2;$PWD\[\a\]\[\e]1;\]$(basename "$(dirname "$PWD")")/\W\[\a\]${BOLD}\$(usernamehost)\[$GREEN\]\w\$(git_info)\[$WHITE\]\n$  \[$RESET\]"

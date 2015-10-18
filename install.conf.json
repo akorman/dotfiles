@@ -17,8 +17,6 @@
             "~/.inputrc": "inputrc",
             "~/.screenrc": "screenrc",
             "~/.wgetrc": "wgetrc"
-
-
         }
     },
     {
