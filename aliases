@@ -9,16 +9,17 @@ alias -- -="cd -"
 # Shortcuts
 alias downloads="cd ~/Downloads"
 alias desktop="cd ~/Desktop"
-alias dotfiles="cd ~/Dropbox\ \(Personal\)/Code/dotfiles/akorman/dotfiles"
-
-alias ocal="cd ~/Dropbox\ \(Personal\)/Code/orangecal"
-alias aloha="cd ~/Dropbox\ \(Personal\)/Code/alohasec.github.io"
-alias bmp="cd ~/Dropbox\ \(Personal\)/Code/brakeman/brakeman-pro"
-alias acorns="cd ~/Dropbox\ \(Acorns\)/Code"
-
 alias g="git"
 alias h="history"
 alias j="jobs"
+
+# Personal shortcuts. Meaningless to anyone else, so just replace them with your own.
+alias code="cd ~/Dropbox\ \(Personal\)/Code"
+alias dotfiles="cd ~/Dropbox\ \(Personal\)/Code/dotfiles/akorman/dotfiles"
+alias ocal="cd ~/Dropbox\ \(Personal\)/Code/orangecal"
+alias bmp="cd ~/Dropbox\ \(Personal\)/Code/brakeman/brakeman-pro"
+alias sites="cd ~/Dropbox\ \(Personal\)/Code/sites"
+alias ajsite="cd ~/Dropbox\ \(Personal\)/Code/sites/allisonjohsnon.com"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
