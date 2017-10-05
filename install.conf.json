@@ -16,6 +16,7 @@
             "~/.gitignore": "gitignore",
             "~/.gitmodules": "gitmodules",
             "~/.inputrc": "inputrc",
+            "~/.npmrc": "npmrc",
             "~/.rvmrc": "rvmrc",
             "~/.screenrc": "screenrc",
             "~/.wgetrc": "wgetrc"

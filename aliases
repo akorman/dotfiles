@@ -12,14 +12,17 @@ alias desktop="cd ~/Desktop"
 alias g="git"
 alias h="history"
 alias j="jobs"
+alias be="bundle exec"
 
 # Personal shortcuts. Meaningless to anyone else, so just replace them with your own.
-alias code="cd ~/Dropbox\ \(Personal\)/Code"
-alias dotfiles="cd ~/Dropbox\ \(Personal\)/Code/dotfiles/akorman/dotfiles"
-alias ocal="cd ~/Dropbox\ \(Personal\)/Code/orangecal"
-alias bmp="cd ~/Dropbox\ \(Personal\)/Code/brakeman/brakeman-pro"
-alias sites="cd ~/Dropbox\ \(Personal\)/Code/sites"
-alias ajsite="cd ~/Dropbox\ \(Personal\)/Code/sites/allisonjohsnon.com"
+alias code="cd ~/Dropbox/Code"
+alias dotfiles="cd ~/Dropbox/Code/dotfiles/akorman/dotfiles"
+alias ocal="cd ~/Dropbox/Code/orangecal"
+alias bmp="cd ~/Dropbox/Code/brakeman/brakeman-pro"
+alias sites="cd ~/Dropbox/Code/sites"
+alias ajsite="cd ~/Dropbox/Code/sites/allisonjohnson.com"
+alias fontawesome="cd ~/Dropbox/Resources/fontawesome-5.0.0-rc2-mac"
+
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
